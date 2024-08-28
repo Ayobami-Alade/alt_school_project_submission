@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABOUT ME</title>
+    <link rel="stylesheet" href="/style/media-style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/ASSIGNMENT 1/index.html">About Me</a></li>
+          <li><a href="/ASSIGNMENT 1/form.html">Application Form</a></li>
+          <li><a href="/ASSIGNMENT 2/media.html">Media</a></li>
+          <li><a href="/ASSIGNMENT 2/table.html">Table</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>ABOUT ME</h1>
+    <p>
+      I'm an intern pharmacist and an aspiring Frontend Developer currently
+      enrolling AltSchool Africa
+    </p>
+
+    <h2>Responsive Image</h2>
+
+    <picture>
+      <source media="(min-width: 1200px)" srcset="/images/1200px.jpg" />
+      <source media="(min-width: 768px)" srcset="/images/768px.jpg" />
+      <source media="(min-width: 480px)" srcset="/images/480px.jpg" />
+      <img
+        src="/images/assign.jpg"
+        alt="A Picture of Me"
+        id="responsiveImage"
+      />
+    </picture>
+
+    <h2>Video Introduction</h2>
+    <video controls>
+      <source src="/videos/mp4.mp4" type="video/mp4" />
+      <source src="/videos/webm.webm" type="video/webm" />
+      Your browser does not support the video tag
+    </video>
+
+    <h2>Audio Message</h2>
+    <audio controls>
+      <source src="/audio/file_example_MP3_1MG.mp3" type="audio/mp3" />
+      <source src="/audio/file_example_OOG_1MG.ogg" type="audio/ogg" />
+      Your browser does not support the audio element
+    </audio>
+
+    <footer>
+      <p>&copy; 2024 ALADE Ganiyu Ayobami. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -79,3 +79,13 @@ tbody tr:hover {
 td {
   color: #333;
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    display: block;
+  }
+  table,
+  header {
+    width: 100%;
+  }
+}

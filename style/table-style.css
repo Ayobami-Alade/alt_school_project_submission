@@ -80,12 +80,18 @@ td {
   color: #333;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   body {
     display: block;
   }
   table,
   header {
     width: 100%;
+  }
+  header {
+    padding: 5px;
+  }
+  nav ul li {
+    margin: 0 5px;
   }
 }
